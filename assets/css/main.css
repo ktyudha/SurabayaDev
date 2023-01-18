@@ -25,6 +25,10 @@ a:hover {
   text-decoration: none;
 }
 
+h2 {
+  font-size: 3.75rem;
+}
+
 h1,
 h2,
 h3,
@@ -113,7 +117,7 @@ section {
 }
 
 .section-header h2 {
-  font-size: 48px;
+  font-size: 3.75rem;
   font-weight: 300;
   margin-bottom: 20px;
   color: var(--color-secondary);
@@ -1051,28 +1055,30 @@ section {
 # Static Hero Section
 --------------------------------------------------------------*/
 .hero-static {
-  width: 100%;
-  min-height: 50vh;
-  background: url("../img/hero-bg.png") center center;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/Vector.png);
   background-size: cover;
-  position: relative;
-  padding: 120px 0 60px;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
 .hero-static h2 {
   margin: 0 0 10px 0;
-  font-size: 48px;
+  font-size: 3.75rem;
   font-weight: 300;
-  color: var(--color-secondary);
+  color: var(--color-white);
   font-family: var(--font-secondary);
 }
 
 .hero-static h2 span {
-  color: var(--color-primary);
+  color: var(--color-white);
 }
 
 .hero-static p {
-  color: rgba(var(--color-secondary-rgb), 0.8);
+  color: rgba(var(--color-white-rgb), 0.8);
   margin: 0 0 30px 0;
   font-size: 20px;
   font-weight: 400;
@@ -1086,12 +1092,12 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: var(--color-white);
-  background: var(--color-primary);
+  background: var(--color-yellow);
   font-family: var(--font-secondary);
 }
 
 .hero-static .btn-get-started:hover {
-  background: rgba(var(--color-primary-rgb), 0.8);
+  background: rgba(var(--color-yellow-rgb), 0.8);
 }
 
 .hero-static .btn-watch-video {
@@ -1112,7 +1118,7 @@ section {
 }
 
 .hero-static .btn-watch-video:hover {
-  color: var(--color-primary);
+  color: var(--color-primary-rgb);
 }
 
 .hero-static .btn-watch-video:hover i {
@@ -1632,9 +1638,9 @@ section {
   animation: fadeIn 0.5s ease-out;
 }
 
-.features .tab-pane h3 {
+.features .tab-pane h5 {
   font-weight: 600;
-  font-size: 36px;
+  /* font-size: 36px; */
   color: var(--color-secondary);
 }
 
