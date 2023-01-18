@@ -117,6 +117,7 @@ section {
 }
 
 .section-header h2 {
+  font-family: Inter, sans-serif;
   font-size: 3.75rem;
   font-weight: 300;
   margin-bottom: 20px;
@@ -1574,18 +1575,18 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Features Section
+# division Section
 --------------------------------------------------------------*/
-.features .nav-tabs {
+.division .nav-tabs {
   border: 0;
 }
 
-.features .nav-link {
+.division .nav-link {
   border: 0;
-  padding: 25px 20px;
+  padding: 70px 30px;
   color: var(--color-secondary);
   box-shadow: 5px 5px 25px rgba(var(--color-secondary-rgb), 0.15);
-  border-radius: 0;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1595,23 +1596,24 @@ section {
   height: 100%;
 }
 
-.features .nav-link i {
+.division .nav-link i {
   font-size: 32px;
   line-height: 0;
 }
 
-.features .nav-link h4 {
+.division .nav-link h4 {
+  text-align: center;
   font-size: 20px;
   font-weight: 600;
   margin: 10px 0 0 0;
   color: var(--color-secondary);
 }
 
-.features .nav-link:hover {
+.division .nav-link:hover {
   color: var(--color-primary);
 }
 
-.features .nav-link.active {
+.division .nav-link.active {
   transition: 0.3s;
   background: var(--color-secondary)
     linear-gradient(
@@ -1621,45 +1623,45 @@ section {
   border-color: var(--color-primary);
 }
 
-.features .nav-link.active h4 {
+.division .nav-link.active h4 {
   color: var(--color-white);
 }
 
-.features .nav-link.active i {
+.division .nav-link.active i {
   color: var(--color-white) !important;
 }
 
-.features .tab-content {
+.division .tab-content {
   margin-top: 30px;
 }
 
-.features .tab-pane.active {
+.division .tab-pane.active {
   -webkit-animation: fadeIn 0.5s ease-out;
   animation: fadeIn 0.5s ease-out;
 }
 
-.features .tab-pane h5 {
+.division .tab-pane h5 {
   font-weight: 600;
   /* font-size: 36px; */
   color: var(--color-secondary);
 }
 
-.features .tab-pane ul {
+.division .tab-pane ul {
   list-style: none;
   padding: 0;
 }
 
-.features .tab-pane ul li {
+.division .tab-pane ul li {
   padding-bottom: 10px;
 }
 
-.features .tab-pane ul i {
+.division .tab-pane ul i {
   font-size: 24px;
   margin-right: 4px;
   color: var(--color-primary);
 }
 
-.features .tab-pane p:last-child {
+.division .tab-pane p:last-child {
   margin-bottom: 0;
 }
 
