@@ -1761,6 +1761,7 @@ section {
   transition: 0.3s;
   border-radius: 50px;
   border: 1px solid #fff;
+  border-color: var(--color-black);
 }
 
 .portfolio .portfolio-flters li:hover,
